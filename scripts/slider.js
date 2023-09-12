@@ -18,8 +18,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 
 }
 
-let btnShowMore = document.querySelector('.slider__btn-show-more');
-let sliderItems = document.querySelector('.slider__items');
+const btnShowMore = document.querySelector('.slider__btn-show-more');
+const sliderItems = document.querySelector('.slider__items');
 
 
 btnShowMore.addEventListener('click', function() {
